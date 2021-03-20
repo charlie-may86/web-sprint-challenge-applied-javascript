@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import axios from "axios";
 
 const Card = (article) => {
@@ -48,7 +49,7 @@ const Card = (article) => {
   author.appendChild(authorNameSpan);
 
   // cardDiv.addEventListener('click', () => {
-  //   console.log(cardDiv);
+  //   console.log('this is a test');
   // })
 
   return cardDiv;
